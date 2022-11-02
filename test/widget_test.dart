@@ -57,4 +57,11 @@ void main() {
   print(kelas);
   print(kelas['nama']);
   print(kelas['kelas']);
+
+  //OPERATOR
+  int a, b;
+  a - 9;
+  b - 7;
+  print("a = " + a.toString());
+  print("b = " + b.toString());
 }
