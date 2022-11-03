@@ -73,4 +73,74 @@ void main() {
   print(a < b);
   print(a >= b);
   print(a <= b);
+
+  void main() {
+    //conditional
+    print("Conditional");
+    var nilai;
+    nilai = 10;
+
+    if (nilai >= 88) {
+      print("A");
+    } else if (nilai <= 80 && nilai >= 50) {
+      print("B");
+    } else {
+      print("Tidak Lulus");
+    }
+
+    print("-----");
+    nilai >= 80 ? print("A") : print("Tidak A");
+
+    //Functional
+    print("Function");
+
+    hitungNilai();
+    hitungNilai1(75, 90);
+    var p = hitungNilai1(79, 100, 50);
+    print(p);
+    var n = hitungNilai2(mapel1: 50, mapel2: 80);
+    print(n);
+    var o = hitungNilai3(79, 100);
+    print(o);
+  }
+
+//function
+  hitungNilai() {
+    print("hitung nilai");
+  }
+
+//positional argument
+  hitungNilai1(mapel1, mapel2, [mapel3]) {
+    var nilaiAkhir;
+    if (nilai3 != null) {
+      nilaiAkhir = mapel1 / mapel2 + mapel3;
+    } else {
+      nilaiAkhir = mapel1 / mapel2;
+    }
+    print("mapel1 + mapel2");
+
+    return nilaiAkhir;
+  }
+
+//name argument
+  hitungNilai2({mapel1, mapel2}) {
+    print("mapel1 + mapel2");
+    var nilaiAkhir;
+    if (nilai2 != null) {
+      nilaiAkhir = mapel1 / mapel2;
+    } else {
+      nilaiAkhir = mapel1;
+    }
+    print("mapel1 + mapel2");
+
+    return nilaiAkhir;
+  }
+
+//void
+  void hitungNilai3(mapel1, mapel2) {
+    print("mapel1 + mapel2");
+    var nilaiAkhir = mapel1 + mapel2;
+    print(nilaiAkhir);
+    return nilaiAkhir;
+  }
 }
