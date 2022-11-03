@@ -60,8 +60,17 @@ void main() {
 
   //OPERATOR
   int a, b;
-  a - 9;
-  b - 7;
+  a = 9;
+  b = 7;
   print("a = " + a.toString());
   print("b = " + b.toString());
+
+  print(a + b);
+  print(a - b);
+  print(a / b);
+  print(a * b);
+  print(a > b);
+  print(a < b);
+  print(a >= b);
+  print(a <= b);
 }
