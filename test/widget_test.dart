@@ -112,6 +112,18 @@ void main() {
     mahasiswafk = "beben";
 
     print(mahasiswafk);
+
+    //null safety
+    // ? ! late
+    //? digunakan dia boleh null
+    late String jurusan;
+    // untuk di isi nanti
+    // late String jurusan;
+
+    jurusan = "Teknik Informatika";
+    // jurusan = "TI";
+    //memaksa untuk di jalankan / yakin ada datanya
+    print(jurusanns.length);
   }
 
 //function
