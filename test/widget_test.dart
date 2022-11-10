@@ -101,7 +101,17 @@ void main() {
     var n = hitungNilai2(mapel1: 50, mapel2: 80);
     print(n);
     var o = hitungNilai3(79, 100);
-    print(o);
+
+//final keyboard => imutable / tidak bisa di rubah
+    //const final
+    //const
+    //const String mahasiswa = "beben";
+    //final
+    final String mahasiswafk;
+
+    mahasiswafk = "beben";
+
+    print(mahasiswafk);
   }
 
 //function
@@ -140,7 +150,5 @@ void main() {
   void hitungNilai3(mapel1, mapel2) {
     print("mapel1 + mapel2");
     var nilaiAkhir = mapel1 + mapel2;
-    print(nilaiAkhir);
-    return nilaiAkhir;
   }
 }
